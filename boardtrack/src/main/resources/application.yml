@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jbdc:postgresql://localhost:5432/boardtrack
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
